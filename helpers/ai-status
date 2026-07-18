@@ -1,0 +1,16 @@
+#!/bin/bash
+# Quick status dumper for both agents
+echo "=== AI Handshake Status ==="
+echo "Time: $(date)"
+echo
+echo "--- STATUS.json ---"
+cat ~/ai-handshake/STATUS.json 2>/dev/null || echo "Missing"
+echo
+echo "--- CURRENT_TASK.md (last 30 lines) ---"
+tail -30 ~/ai-handshake/CURRENT_TASK.md 2>/dev/null || echo "Missing"
+echo
+echo "--- Latest grok message ---"
+tail -20 ~/ai-handshake/MESSAGES/grok.md 2>/dev/null || echo "None"
+echo
+echo "--- Latest codex message ---"
+tail -20 ~/ai-handshake/MESSAGES/codex.md 2>/dev/null || echo "None"

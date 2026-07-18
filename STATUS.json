@@ -1,0 +1,14 @@
+{
+  "protocol_version": "1.0",
+  "last_updated": "2026-06-23T23:55:00Z",
+  "current_owner": null,
+  "busy": false,
+  "phase": "handshake_initialized",
+  "task_summary": "Multi-AI collaboration channel established. Waiting for first shared task.",
+  "next_action_for": null,
+  "links": {
+    "task": "~/ai-handshake/CURRENT_TASK.md",
+    "grok_messages": "~/ai-handshake/MESSAGES/grok.md",
+    "codex_messages": "~/ai-handshake/MESSAGES/codex.md"
+  }
+}

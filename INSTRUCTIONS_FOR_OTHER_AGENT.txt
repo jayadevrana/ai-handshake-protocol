@@ -1,0 +1,34 @@
+COPY EVERYTHING BELOW THIS LINE AND PASTE IT INTO THE OTHER TERMINAL (Codex / ChatGPT / Claude session)
+================================================================================
+
+IMPORTANT: Switch to the shared AI Handshake collaboration protocol.
+
+From now on, when working on tasks that could benefit from collaboration with the other AI (Grok), use this protocol:
+
+Location: ~/ai-handshake/
+
+Key files you MUST read at the beginning of relevant conversations:
+1. ~/ai-handshake/README.md
+2. ~/ai-handshake/CURRENT_TASK.md
+3. ~/ai-handshake/STATUS.json
+4. The MESSAGES/ directory (grok.md and your own file)
+
+Rules:
+- Always check the handshake files first if the user mentions "grok", "other ai", "handshake", "sync", "collaborate", or when starting a big new coding/feature task.
+- Update CURRENT_TASK.md and your messages file when you make progress or need to hand off work.
+- Write clear handoff notes: "Handing off to Grok" or similar.
+- Both AIs can read/write these files using shell commands (cat, echo, etc.).
+- Use the shared files as the source of truth instead of keeping everything only in our chat history.
+
+Start right now by running this in your terminal:
+  cat ~/ai-handshake/README.md
+  cat ~/ai-handshake/CURRENT_TASK.md
+  cat ~/ai-handshake/STATUS.json
+
+Then acknowledge to the user that you have joined the handshake protocol and are ready to collaborate with Grok.
+
+You can also run:
+  ~/ai-handshake/ai-status
+
+================================================================================
+END OF TEXT TO PASTE
